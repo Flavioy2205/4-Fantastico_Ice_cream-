@@ -1,0 +1,72 @@
+{
+  "customId": "copinhoFonte",
+  "queryName": "copinhosTamanho",
+  "sourceType": "blockly",
+  "baseEntity": null,
+  "blockly": {
+    "type": "server",
+    "blocklyMethod": "tamanho",
+    "blocklyClass": "blockly.Copinho",
+    "blocklyLanguage": "java",
+    "blocklyParams": [],
+    "blocklyJson": {
+      "namespace": "blockly.Copinho",
+      "sourcePath": "src/main/java/blockly/copinho.blockly",
+      "language": "java",
+      "methods": [
+        {
+          "name": "tamanho",
+          "hasReturn": "true",
+          "params": []
+        }
+      ]
+    },
+    "blocklyGETMethod": "tamanho",
+    "blocklyPOSTMethod": "tamanho",
+    "blocklyPUTMethod": "tamanho",
+    "blocklyDELETEMethod": "tamanho",
+    "blocklyFILTERMethod": "tamanho",
+    "blocklyCOUNTMethod": "tamanho"
+  },
+  "entitySimpleName": null,
+  "entityFullName": null,
+  "query": "",
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {},
+  "defaultValuesProperties": {},
+  "security": {},
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query483571/",
+  "audit": false
+}

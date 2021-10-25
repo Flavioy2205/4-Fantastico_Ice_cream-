@@ -1,0 +1,93 @@
+{
+  "customId": "query768699",
+  "queryName": "casquinha50ml",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "fornecedorcasquinha",
+  "entityFullName": "app.entity.fornecedorcasquinha",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "fornecedorcasquinha",
+        "alias": "f",
+        "namespace": "app.entity.fornecedorcasquinha"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "f"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "nomedoFornecedor": null,
+    "tipodoproduto": null,
+    "cnpj": null,
+    "sorvete": null,
+    "valor": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "nomedoFornecedor": null,
+    "tipodoproduto": null,
+    "cnpj": null,
+    "sorvete": null,
+    "valor": null
+  },
+  "security": {
+    "id": null,
+    "nomedoFornecedor": null,
+    "tipodoproduto": null,
+    "cnpj": null,
+    "sorvete": null,
+    "valor": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query768699/",
+  "audit": true
+}
