@@ -4599,7 +4599,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 128.25,
+          "ref-x": 128.015625,
           "text": "Texto\nTexto\nTexto\nNumérico\nSorvete\nNumérico\nInteiro\nData\n"
         },
         ".uml-class-methods-rect": {
@@ -4884,8 +4884,8 @@
       "modelType": "Table",
       "name": "fornecedormassa",
       "position": {
-        "x": 1086,
-        "y": 72
+        "x": 1058,
+        "y": -4
       },
       "queries": [],
       "realName": "",
@@ -4893,8 +4893,8 @@
       "role": "Auto",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 173.1446762084961,
-        "width": 194
+        "height": 172.4962387084961,
+        "width": 192.640625
       },
       "tableName": "",
       "tableScheme": null,
