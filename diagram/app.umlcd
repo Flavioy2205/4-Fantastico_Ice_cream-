@@ -2044,7 +2044,7 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 63.4375,
+          "ref-x": 63.203125,
           "text": "Texto\nTexto\nTexto\nNumérico\nUser\nTexto\n"
         },
         ".uml-class-methods-rect": {
@@ -2267,7 +2267,7 @@
       "modelType": "Table",
       "name": "Sorvete",
       "position": {
-        "x": 1082,
+        "x": 1084,
         "y": 290
       },
       "queries": [],
@@ -2276,8 +2276,8 @@
       "role": "Auto",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 151.30570220947266,
-        "width": 129.1875
+        "height": 150.6572723388672,
+        "width": 127.828125
       },
       "tableName": "",
       "tableScheme": null,
@@ -3900,7 +3900,7 @@
         "id:java.lang.String",
         "nomedoFornecedor:java.lang.String",
         "tipodoproduto:java.lang.String",
-        "cnpj:java.lang.Double",
+        "cnpj:java.lang.String",
         "sorvete:Sorvete",
         "valor:java.lang.Double",
         "quantidade:java.lang.Integer",
@@ -3917,8 +3917,8 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 131.921875,
-          "text": "Texto\nTexto\nTexto\nNumérico\nSorvete\nNumérico\nInteiro\nData\n"
+          "ref-x": 131.6875,
+          "text": "Texto\nTexto\nTexto\nTexto\nSorvete\nNumérico\nInteiro\nData\n"
         },
         ".uml-class-methods-rect": {
           "height": 30,
@@ -4041,7 +4041,7 @@
         },
         {
           "name": "cnpj",
-          "type": "java.lang.Double",
+          "type": "java.lang.String",
           "dbName": "cnpj",
           "dbLength": "",
           "dbPrecision": "",
@@ -4211,8 +4211,8 @@
       "role": "Auto",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 173.1446762084961,
-        "width": 197.671875
+        "height": 172.4962387084961,
+        "width": 196.3125
       },
       "tableName": "",
       "tableScheme": null,
@@ -4225,7 +4225,7 @@
         "id:java.lang.String",
         "nomefornecedor:java.lang.String",
         "tipodoproduto:java.lang.String",
-        "cnpj:java.lang.Double",
+        "cnpj:java.lang.String",
         "sorvete:Sorvete",
         "valor:java.lang.Double",
         "tamanhocopo:java.lang.String",
@@ -4243,8 +4243,8 @@
         },
         ".uml-class-attrs-value": {
           "font-size": 11,
-          "ref-x": 116.015625,
-          "text": "Texto\nTexto\nTexto\nNumérico\nSorvete\nNumérico\nTexto\nInteiro\nData\n"
+          "ref-x": 115.78125,
+          "text": "Texto\nTexto\nTexto\nTexto\nSorvete\nNumérico\nTexto\nInteiro\nData\n"
         },
         ".uml-class-methods-rect": {
           "height": 30,
@@ -4367,7 +4367,7 @@
         },
         {
           "name": "cnpj",
-          "type": "java.lang.Double",
+          "type": "java.lang.String",
           "dbName": "cnpj",
           "dbLength": "",
           "dbPrecision": "",
@@ -4568,8 +4568,8 @@
       "role": "Auto",
       "runtimeClass": "cronos.widgets.joint.uml.Class",
       "size": {
-        "height": 184.080810546875,
-        "width": 181.765625
+        "height": 183.432373046875,
+        "width": 180.40625
       },
       "tableName": "",
       "tableScheme": null,
@@ -4582,7 +4582,7 @@
         "id:java.lang.String",
         "nomedofornecedor:java.lang.String",
         "tipoproduto:java.lang.String",
-        "cnpj:java.lang.Double",
+        "cnpj:java.lang.String",
         "sorvete:Sorvete",
         "valor:java.lang.Double",
         "quantidade:java.lang.Integer",
@@ -4600,7 +4600,7 @@
         ".uml-class-attrs-value": {
           "font-size": 11,
           "ref-x": 128.015625,
-          "text": "Texto\nTexto\nTexto\nNumérico\nSorvete\nNumérico\nInteiro\nData\n"
+          "text": "Texto\nTexto\nTexto\nTexto\nSorvete\nNumérico\nInteiro\nData\n"
         },
         ".uml-class-methods-rect": {
           "height": 30,
@@ -4723,7 +4723,7 @@
         },
         {
           "name": "cnpj",
-          "type": "java.lang.Double",
+          "type": "java.lang.String",
           "dbName": "cnpj",
           "dbLength": "",
           "dbPrecision": "",

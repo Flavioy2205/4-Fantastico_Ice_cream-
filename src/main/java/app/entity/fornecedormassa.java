@@ -52,7 +52,7 @@ public class fornecedormassa implements Serializable {
     */
     @Column(name = "cnpj", nullable = true, unique = false, insertable=true, updatable=true)
         
-        private java.lang.Double cnpj;
+        private java.lang.String cnpj;
 
     /**
     * @generated
@@ -159,7 +159,7 @@ public class fornecedormassa implements Serializable {
     * @generated
     */
     
-    public java.lang.Double getCnpj(){
+    public java.lang.String getCnpj(){
         return this.cnpj;
     }
 
@@ -168,7 +168,7 @@ public class fornecedormassa implements Serializable {
     * @param cnpj cnpj
     * @generated
     */
-    public fornecedormassa setCnpj(java.lang.Double cnpj){
+    public fornecedormassa setCnpj(java.lang.String cnpj){
         this.cnpj = cnpj;
         return this;
     }

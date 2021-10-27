@@ -52,7 +52,7 @@ public class fornecedorcopinho implements Serializable {
     */
     @Column(name = "cnpj", nullable = true, unique = false, insertable=true, updatable=true)
         
-        private java.lang.Double cnpj;
+        private java.lang.String cnpj;
 
     /**
     * @generated
@@ -166,7 +166,7 @@ public class fornecedorcopinho implements Serializable {
     * @generated
     */
     
-    public java.lang.Double getCnpj(){
+    public java.lang.String getCnpj(){
         return this.cnpj;
     }
 
@@ -175,7 +175,7 @@ public class fornecedorcopinho implements Serializable {
     * @param cnpj cnpj
     * @generated
     */
-    public fornecedorcopinho setCnpj(java.lang.Double cnpj){
+    public fornecedorcopinho setCnpj(java.lang.String cnpj){
         this.cnpj = cnpj;
         return this;
     }
